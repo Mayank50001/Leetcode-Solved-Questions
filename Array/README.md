@@ -6,32 +6,21 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 
 ## ✅ Problems Solved
 
-| Problem Name | File | Tags | Notes |
-|--------------|------|------|-------|
-| Find Peak Element | `Binary Search/findPeakElement.cpp` | Binary Search | LogN peak finding |
-| Sort Colors | `Hash Table/Sorting/SortColors.cpp` | Dutch National Flag | No STL sort allowed |
-| Pivot Index | `Prefix Sum/findPivot-724.cpp` | Prefix Sum | Suffix trick |
+| Problem no. | Problem Name | File | Tags | Notes |
+|-------------|--------------|------|------|-------|
+| 1 | Two Sum | `Hash Table/twoSum.cpp` | Hash Table |
+| 75 | Sort Colors | `Hash Table/Sorting/SortColors.cpp` | Dutch National Flag | 
+| 724 | Pivot Index | `Prefix Sum/findPivot-724.cpp` | Prefix Sum |
+| 852 | Find Peak Element | `Binary Search/findPeakElement.cpp` | Binary Search |
+| 1207 | Unique No. of Occurrences | `Hash Table/uniqueNoOfOccurrences.cpp` | Hash Table to track frequency of all elements | 
 
 ---
 
-## 🧠 Concepts Covered
+## Tips to solve problems
 
-- Traversal, Two Pointers
-- Binary Search in unsorted variants
-- Prefix Sum applications
-- In-place sorting without sort()
+- Always check the input range of problem
+- Many of the problem's condition checks revolve around input range of the problem
 
 ---
 
-## 📌 Learnings & Mistakes
 
-- While doing `SortColors`, I initially used brute force, but later learned the Dutch National Flag algorithm — O(n), in-place.
-- In `Find Pivot`, edge cases like left/right sums being zero were tricky.
-
----
-
-## ⏳ Next Goals
-
-- [ ] Add Sliding Window problems
-- [ ] Add Merge Intervals logic
-- [ ] Revisit Greedy in arrays
