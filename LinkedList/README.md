@@ -7,7 +7,7 @@ This folder contains LeetCode problems related to Arrays
 ## ✅ Problems Solved
 
 | Problem no. | Problem Name | File | Tags |
-|-------------|--------------|------|------|-------|
+|-------------|--------------|------|------|
 | 2 | Add Two Numbers | `Math/addTwoNumbers.cpp` | Sum elements of two different Linked Lists |
 
 
