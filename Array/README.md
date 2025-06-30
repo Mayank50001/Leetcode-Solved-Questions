@@ -10,9 +10,11 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 |-------------|--------------|------|-----------|
 | 1 | Two Sum | `Hash Table/twoSum.cpp` | Hash Table |
 | 35 | Search Insert Position | `Binary Search/searchInsertPosition.cpp` | Binary search if element is found else index for the element |
+| 46 | Permutations | `Recursion and Backtracking/permutations.cpp` | Recursion on the array while swapping elements |
 | 69 | Sqrt(x) | `Binary Search/sqrtx.cpp` | Binary Search on 0 - Num search space |
 | 75 | Sort Colors | `Hash Table/Sorting/SortColors.cpp` | Dutch National Flag | 
 | 88 | Merge Sorted Arrays | `Two Pointers/mergeSortedArray.cpp` | Two pointers on both array from behind |
+| 594 | Longest Harmonious Subsequence | `Sliding Window/longestHarmoniousSequence.cpp` | |
 | 724 | Pivot Index | `Prefix Sum/findPivot-724.cpp` | Prefix Sum |
 | 852 | Find Peak Element | `Binary Search/findPeakElement.cpp` | Binary Search |
 | 1207 | Unique No. of Occurrences | `Hash Table/uniqueNoOfOccurrences.cpp` | Hash Table to track frequency of all elements | 
