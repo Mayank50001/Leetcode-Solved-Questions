@@ -11,7 +11,7 @@ This folder contains LeetCode problems related to
 | 3 | Longest substring without repeating characters | `Sliding Window/longestSubstring.cpp` | Sliding window for tracking longest substring |
 | 125 | Valid Palindrome | `Two pointers/validPalindrome.cpp` | Check valid characters of both pointers to be the same |
 | 344 | Reverse a string | `Two pointers/reverseString.cpp` | swap i and j pointers gradually |
-
+| 3330 | Find the Original Typed String | `findOriginalTypedString.cpp` | count of repeated characters |
 
 ---
 
