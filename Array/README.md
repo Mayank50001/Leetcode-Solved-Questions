@@ -22,6 +22,7 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 | 724 | Pivot Index | `Prefix Sum/findPivot-724.cpp` | Prefix Sum |
 | 852 | Find Peak Element | `Binary Search/findPeakElement.cpp` | Binary Search |
 | 1207 | Unique No. of Occurrences | `Hash Table/uniqueNoOfOccurrences.cpp` | Hash Table to track frequency of all elements | 
+| 1394 | Find Largest Lucky Number | `Hash Table/luckyInteger.cpp` | Hash Table to count frequency and check frequency equality |
 | 1752 | Check if array is sorted and rotated | `checksortedAndRotated.cpp` | One or zero pair check for sorted and rotated arrays |
 | 2016 | Maximum difference between increasing elements | `maxDiffofIncreasingElement.cpp` | Keep track of sequential pairs of minimum and maximum elements |
 | 2099 | Find Subsequence of Length K With the Largest Sum | `Sorting/subsequenceOfKWithLargestSum.cpp` | Sorting | Sorting based on value and then index of pair vector |
@@ -38,7 +39,7 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 - Some problems are solved by circular logic where we have to traverse back to first element, use % operator there
 - Find count of ___ or condition based subset or subsequence types of problems are either solved by sliding window or hash table or two pointers
 - For recursion problems check for the first step to be taken right now, and the base case, rest of the thing will be handled by recursion itself
-- 
+- Some questions are straightforward in concept and logic as well, just because we have done so many problems of finding patterns and complex logics, doesn't mean that a questions can't have a straight forward logic.
 
 ---
 
