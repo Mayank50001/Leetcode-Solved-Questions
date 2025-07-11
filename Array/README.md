@@ -11,6 +11,7 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 | 1 | Two Sum | `Hash Table/twoSum.cpp` | Hash Table |
 | 11 | Container with most water | `Two Pointers/containerWithMostWater.cpp` | Two pointers at both end of array, greedy in the loop |
 | 35 | Search Insert Position | `Binary Search/searchInsertPosition.cpp` | Binary search if element is found else index for the element |
+| 41 | First Missing Positive | `Hash Table/firstMissingPositive.cpp` | hash map and max element tracked to find first missing positive |
 | 46 | Permutations | `Recursion and Backtracking/permutations.cpp` | Recursion on the array while swapping elements |
 | 69 | Sqrt(x) | `Binary Search/sqrtx.cpp` | Binary Search on 0 - Num search space |
 | 75 | Sort Colors | `Hash Table/Sorting/SortColors.cpp` | Dutch National Flag | 
