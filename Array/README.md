@@ -10,6 +10,7 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 |-------------|--------------|------|-----------|
 | 1 | Two Sum | `Hash Table/twoSum.cpp` | Hash Table |
 | 11 | Container with most water | `Two Pointers/containerWithMostWater.cpp` | Two pointers at both end of array, greedy in the loop |
+| 34 | Find First and Last Position in Sorted Array | `Binary Search/firstAndLastPosInSortedArray.cpp` | Binary Search the target, traverse for range | 
 | 35 | Search Insert Position | `Binary Search/searchInsertPosition.cpp` | Binary search if element is found else index for the element |
 | 41 | First Missing Positive | `Hash Table/firstMissingPositive.cpp` | hash map and max element tracked to find first missing positive |
 | 46 | Permutations | `Recursion and Backtracking/permutations.cpp` | Recursion on the array while swapping elements |
@@ -27,6 +28,8 @@ This folder contains LeetCode problems related to Arrays — including subtopics
 | 1752 | Check if array is sorted and rotated | `checksortedAndRotated.cpp` | One or zero pair check for sorted and rotated arrays |
 | 2016 | Maximum difference between increasing elements | `maxDiffofIncreasingElement.cpp` | Keep track of sequential pairs of minimum and maximum elements |
 | 2099 | Find Subsequence of Length K With the Largest Sum | `Sorting/subsequenceOfKWithLargestSum.cpp` | Sorting | Sorting based on value and then index of pair vector |
+| 2410 | Maximum Matching of Players with Trainers | `maxMatchOfPlayersAndTrainers.cpp` | Two pointers on both players and trainers, compare and slide |
+
 
 ---
 
