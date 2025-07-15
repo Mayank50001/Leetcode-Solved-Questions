@@ -11,6 +11,7 @@ This folder contains LeetCode problems related to Arrays
 | 2 | Add Two Numbers | `Math/addTwoNumbers.cpp` | Sum elements of two different Linked Lists |
 | 19 | Remove nth node from end of list | `Two Pointers/removeNthNodeFromEnd.cpp` | Fast and slow pointer approach |
 | 21 | Merge Two Sorted Lists | `Recursion/mergeTwoSortedList.cpp` | Recursive merging |
+| 61 | Rotate List | `Two Pointers/rotateList.cpp` | The new head and tail modification method of two pointers |
 | 206 | Reverse Linked List | `reverseList.cpp` | Insert at head everytime |
 | 876 | Middle of the Linked List | `Two Pointers/middleOfLinkedList.cpp` | Fast and slow pointer approach |
 | 1721 | Swapping nodes in a list | `Two Pointers/swappingnodes.cpp` | Fast and slow pointer swap |
@@ -25,6 +26,7 @@ This folder contains LeetCode problems related to Arrays
 - First understand the question, so that you can understand if counting is efficient or two pointers approach can be used to do the same job in one pass. Always check the constraints for linked list problems as they can describe exactly how much time our algorithm is to be allowed.
 - Two pointers approach can be done using slow and fast pointer. Just understand question and find out how fast and slow pointers can be the possible fit for the solution.
 - For problems where recursion works, remember that the biggest mistake of recursion problems is to think about the whole recursion tree and it's future recursion path flows, recursion has 3 rules, specify the base case, call the recursive relation based on the bigger problem and solve the smaller problem letting recursion handle the whole future cycle and  backtrack if required.
+- The secret hidden hint to linked List questions where we are asked to change it to something, don't run after changing the physical form of the list, just change it's next pointer links, and it will make sense automatically.
 
 ---
 
