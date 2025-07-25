@@ -1,6 +1,6 @@
 # 📂 Topic: LinkedList
 
-This folder contains LeetCode problems related to Arrays 
+This folder contains LeetCode problems related to Linked Lists and different approaches such as **Two pointers**, **recursion**, etc.
 
 ---
 
@@ -11,8 +11,15 @@ This folder contains LeetCode problems related to Arrays
 | 2 | Add Two Numbers | `Math/addTwoNumbers.cpp` | Sum elements of two different Linked Lists |
 | 19 | Remove nth node from end of list | `Two Pointers/removeNthNodeFromEnd.cpp` | Fast and slow pointer approach |
 | 21 | Merge Two Sorted Lists | `Recursion/mergeTwoSortedList.cpp` | Recursive merging |
+| 25 | Reverse nodes in K group | `Recursion/reverseNodesInKGroups.cpp` | Count k nodes and reverse recursively |
 | 61 | Rotate List | `Two Pointers/rotateList.cpp` | The new head and tail modification method of two pointers |
+| 82 | Remove Duplicates from Sorted List II | `removeDuplicates2.cpp` | Find Duplicate nodes and skip them inclusively |
+| 83 | Remove Duplicates from Sorted List I | `removeDuplicates.cpp` | Find Duplicate nodes and skip them exclusively |
+| 92 | Reverse Linked List II | `reverseRange.cpp` | Find the left and rightmost nodes of the range and reverse while changing links carefully |
+| 141 | Linked List I | `Two Pointers/floydsCycleDetection.cpp` | Use of fast and slow pointer |
+| 142 | Linked List II | `Two Pointers/FindCyclePoint.cpp` | Use of fast and slow pointer along with the cycle point theory |
 | 206 | Reverse Linked List | `reverseList.cpp` | Insert at head everytime |
+| 234 | Palindrome List | `Two Pointers/palindromeList.cpp` | Reverse half list and check for palindrome |
 | 876 | Middle of the Linked List | `Two Pointers/middleOfLinkedList.cpp` | Fast and slow pointer approach |
 | 1721 | Swapping nodes in a list | `Two Pointers/swappingnodes.cpp` | Fast and slow pointer swap |
 
@@ -27,6 +34,8 @@ This folder contains LeetCode problems related to Arrays
 - Two pointers approach can be done using slow and fast pointer. Just understand question and find out how fast and slow pointers can be the possible fit for the solution.
 - For problems where recursion works, remember that the biggest mistake of recursion problems is to think about the whole recursion tree and it's future recursion path flows, recursion has 3 rules, specify the base case, call the recursive relation based on the bigger problem and solve the smaller problem letting recursion handle the whole future cycle and  backtrack if required.
 - The secret hidden hint to linked List questions where we are asked to change it to something, don't run after changing the physical form of the list, just change it's next pointer links, and it will make sense automatically.
+- In case of a problem where head node is possible to be changed, use dummy node as a reference to any new head node of the list
+- Use prev , curr and next pointers wisely, they can become the whole point of confusion in your peaceful problem solving.
 
 ---
 
